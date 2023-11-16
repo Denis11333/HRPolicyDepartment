@@ -1,0 +1,6 @@
+[submodule "HRPolicyDepartment-frontend"]
+	path = HRPolicyDepartment-frontend
+	url = https://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@github.com/Denis11333/HRPolicyDepartment-frontend
+[submodule "HRPolicyDepartment-backend"]
+	path = HRPolicyDepartment-backend
+	url = https://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@github.com/Denis11333/HRPolicyDepartment-backend
