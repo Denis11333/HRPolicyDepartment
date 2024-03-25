@@ -1,9 +1,9 @@
-version: '3'
+version: "3"
 services:
   server:
     build: ./HRPolicyDepartment-backend
     ports:
-      - '5001:5001'
+      - "5001:5001"
     depends_on:
       - mysqldb
 
@@ -12,14 +12,14 @@ services:
       context: ./HRPolicyDepartment-frontend
       dockerfile: Dockerfile
     ports:
-      - '4200:4200'
+      - "4200:4200"
     depends_on:
       - server
 
   mysqldb:
     image: mysql:latest
     ports:
-      - '3306:3306'
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: hrpolicydepartment
